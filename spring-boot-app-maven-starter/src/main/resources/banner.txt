@@ -1,0 +1,4 @@
+${AnsiColor.BRIGHT_YELLOW}
+App${AnsiColor.DEFAULT}
+${AnsiColor.BRIGHT_GREEN}${application.title} ${application.version}
+Powered by Spring Boot ${spring-boot.version}${AnsiColor.DEFAULT}
