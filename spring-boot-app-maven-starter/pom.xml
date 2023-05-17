@@ -21,7 +21,7 @@
         <maven.compiler.target>17</maven.compiler.target>
 
         <!-- external dependency libraries -->
-
+        <artifactId.version></artifactId.version>
 
         <!-- maven plugins -->
         <minimal.maven.version>3.8.*</minimal.maven.version>

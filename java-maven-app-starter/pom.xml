@@ -16,6 +16,7 @@
         <maven.compiler.target>17</maven.compiler.target>
 
         <!-- external dependency libraries -->
+        <artifactId.version></artifactId.version>
 
         <!-- test scope libraries -->
         <junit.jupiter.version>5.9.1</junit.jupiter.version>
