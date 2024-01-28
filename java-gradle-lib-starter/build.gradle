@@ -27,9 +27,6 @@ shadowJar {
     archiveBaseName.set(project.name)
     archiveVersion.set(project.version)
     archiveClassifier.set('')
-    manifest {
-        attributes 'Main-Class': 'com.github.ducknowledges.gradle.Main'
-    }
 }
 
 idea {
@@ -91,6 +88,8 @@ configurations.configureEach {
     resolutionStrategy.force 'org.slf4j:slf4j-api:2.0.11'
     resolutionStrategy.force 'org.junit.jupiter:junit-jupiter-api:5.10.1'
     resolutionStrategy.force 'net.minidev:json-smart:2.5.0'
+    resolutionStrategy.force 'org.sonarsource.sslr:sslr-core:1.24.0.633'
+    resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.2'
 }
 
 //Print dependencies from BOMs: Task -> other -> managedVersions
